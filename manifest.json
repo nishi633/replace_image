@@ -1,0 +1,12 @@
+{
+  "name": "replaceImage",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "replace image src",
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
